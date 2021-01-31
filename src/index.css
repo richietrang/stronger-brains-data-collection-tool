@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'WoodfordBournePro-Bold';
+  src: local('WoodfordBournePro-Bold'), url(./assets/fonts/WoodfordBournePRO-Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: local('WoodfordBournePro-Regular'), url(./assets/fonts/Cabin-Medium.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Cabin';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
